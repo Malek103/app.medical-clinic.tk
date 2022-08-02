@@ -1,0 +1,113 @@
+body,html {
+    direction: ltr !important;
+    font-family: Arial, Helvetica, sans-serif !important;
+}
+.sidebar-wrapper {
+    right: auto;
+    left: 16px;
+}
+#content {
+    margin-right: 0px;
+    margin-left: 225px;
+}
+#sidebar ul.menu-categories.ps {
+    padding-left: 0;
+    padding-right: 22px;
+}
+#sidebar ul.menu-categories.ps {
+    border-left: none;
+    border-right: 1px solid #e0e6ed;
+}
+#sidebar ul.menu-categories li.menu > .dropdown-toggle svg, #sidebar ul.menu-categories li.menu > .dropdown-toggle i {
+    margin-left: 0px;
+    margin-right: 10px;
+}
+#sidebar ul.menu-categories ul.submenu > li a {
+    padding-right: 0;
+    margin-right: 0;    
+    padding-left: 0px;
+    margin-left: 0px;
+}
+table {
+    text-align: left;
+}
+.form-group  {
+    text-align: left;
+}
+.widget-header h4 {
+    float: left !important;
+}
+.widget-header a {
+    float: right !important;
+}
+.btn-group > .btn:first-child:not(:last-child):not(.dropdown-toggle) {
+
+}
+.header-container .navbar .navbar-item .nav-item.dropdown.language-dropdown .dropdown-menu {
+    left: -100% !important;
+}
+.header-container .navbar .navbar-item .nav-item.dropdown .dropdown-menu:after {
+    left: auto !important;
+    right: 7px !important;
+  }
+  .header-container .navbar .navbar-item .nav-item.dropdown .dropdown-menu.show {
+    left: -550%;
+  }
+  .navbar .navbar-item .nav-item.user-profile-dropdown .dropdown-menu .dropdown-item a {
+    text-align: left;
+  }
+  .calendar h1 {
+      text-align: center;
+  }
+@media (min-width: 768px) {
+    .ml-md-auto, .mx-md-auto {
+        margin-right: 0px !important;
+        margin-left: auto!important;
+    }
+}
+.btn-group .dropdown-menu {
+    text-align: left;
+}
+.res-label {
+    text-align: left;
+}
+.res-label a {
+    float: right;
+}
+.widget-heading h5 {
+    text-align: left;
+}
+.widget-three .widget-content .summary-list .w-icon, .widget-table-one .transactions-list .t-item .t-icon {
+    margin-left: 0;
+    margin-right: 12px;
+}
+.widget-table-one .transactions-list .t-item .t-name {
+    text-align: left;
+}
+.navbar .theme-brand li.theme-text {
+    margin-left: 0;
+}
+.sidebarCollapse {
+    padding-left: 25px;
+}
+@media (max-width: 991px) {
+.main-container.sidebar-closed #content {
+    margin-right: 0;
+    margin-left: 0px;
+}
+.main-container:not(.sbar-open) .sidebar-wrapper, body.alt-menu .sidebar-closed > .sidebar-wrapper {
+    width: 0;
+    right: auto;
+    left:-52px
+}
+.sidebar-wrapper {
+    left: 0;
+}
+.navbar-item {
+    padding: 0 !important;
+}
+.header-container .navbar .language-dropdown {
+    margin-right: 0 !important;
+}
+
+}

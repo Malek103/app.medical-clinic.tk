@@ -1,0 +1,94 @@
+body {
+    background:#060818;
+    color:#888ea8
+}
+.widget, .widget-content-area {
+    background: #0e1726;
+    border:none;
+    box-shadow: none !important;
+}
+h1, h2, h3, h4, h5, h6 {
+    color: #e0e6ed !important;
+}
+a{    
+    color:#e0e6ed !important
+}
+#sidebar ul.menu-categories li.menu > .dropdown-toggle:hover, #sidebar ul.menu-categories li.menu > .dropdown-toggle:active, #sidebar ul.menu-categories li.menu > .dropdown-toggle:focus {
+    background: #3b3f5c !important
+}
+.table > tbody > tr > td , .table > thead > tr > th {
+    color:white
+}
+.table > thead > tr > th {
+    background: #060818;
+}
+.table-hover:not(.table-dark) tbody tr:hover {
+    background: transparent !important;
+}
+.widget.box .widget-header {
+    background: transparent;
+}
+.form-control, .form-control:active, .form-control:focus, div.dataTables_wrapper div.dataTables_filter input {
+  
+    color: #009688;
+    background: #1b2e4b;
+    border:none
+}
+.btn-group .dropdown-menu {
+    background: #060818 !important
+}
+.dataTables_wrapper .dataTables_length select.form-control {
+    background: #1b2e4b;
+
+}
+.modal-content {
+    background: #0e1726 !important;
+}
+p {
+    color:white
+}
+.calendar, .month {
+    background: transparent;
+}
+.calendar ul li .calendar-menu {
+    background: #0e1726 !important;
+
+}
+.table > tbody tr {
+    border-bottom: 1px solid rgba(255,255,255,0.15);
+}
+.btn, .header-container .navbar .navbar-item .nav-item.dropdown.language-dropdown .dropdown-menu, .header-container .navbar .navbar-item .nav-item.dropdown .dropdown-menu.show {
+    background: #060818 !important;
+    color:white ;
+    border:none !important;
+}
+.btn:hover, .btn:focus, .btn:active {
+    box-shadow: none !important;
+    border:none !important;
+    transform: none !important;
+}
+.header-container .navbar .navbar-item .nav-item.dropdown .dropdown-menu:after {
+    border:none !important
+}
+#sidebar ul.menu-categories.ps {
+    border-left: 1px solid rgba(255,255,255,0.15);
+    border-color: rgba(255,255,255,0.15) !important
+}
+.header-container .navbar .language-dropdown .dropdown-menu a span {
+    color:white
+}
+
+.widget-table-two .table > thead > tr > th, .widget-table-two .table > thead > tr > th .th-content {
+    background: transparent !important;
+    color:White !important
+}
+.btn-primary {
+    box-shadow: none !important;
+}
+#sidebar {
+    background: #060818 !important;
+}
+.page-link {
+    background: #1b2e4b !important;
+    border:none !important
+}
